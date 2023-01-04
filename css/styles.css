@@ -1,4 +1,4 @@
-/*Restando*/
+/*RESETANDO*/
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/*Variaveis*/
+/*VARIAVEIS*/
 
 :root{
     --main-color: #1000a0;
@@ -18,12 +18,12 @@
     --about-bg-color: #015a64;
 }
 
-/*Geral*/
+/*GERAL*/
 .highlight{
     color: var(--main-color)
 }
 
-/*containers*/
+/*CONTAINERS*/
 #container {
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@
     padding: 50px;
 }
 
-/*Bio Container*/
+/*BIO CONTAINER*/
 #bio-container h2{
     margin-bottom: 25px;
 }
@@ -104,7 +104,7 @@
     max-width: 20px;
 }
 
-/*about container*/
+/*ABOUT CONTAINER*/
 #name{
     font-size: 45px;
     margin-bottom: 15px;
