@@ -2,7 +2,6 @@
 *{
     padding: 0;
     margin: 0;
-
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -10,12 +9,12 @@
 /*VARIAVEIS*/
 
 :root{
-    --main-color: #1000a0;
+    --main-color: #2026A1;
     --main-text-color: #FFF;
-    --border-color: #FFF;
-    --bio-bg-color: #0894a4;
-    --bio-border-color:#017981;
-    --about-bg-color: #015a64;
+    --border-color: #26676E;
+    --bio-bg-color: #018a99;
+    --bio-border-color:#02bbcf;
+    --about-bg-color: #09A8BA;
 }
 
 /*GERAL*/
@@ -164,8 +163,8 @@ background-color: transparent;
 }
 
 .skills-box{
-    flex: 1 1 33%;
-    max-width: 33%;
+    flex: 1 1 50%;
+    max-width: 50%;
     margin-bottom: 35px;
 }
 .skills-title{
@@ -173,11 +172,10 @@ background-color: transparent;
     margin-bottom: 25px;
     font-weight: bold;
     padding-left: 10px;
-    border-left: 5px solid var(--main-color);
 }
 
 .skills-box i{
-    font-size: 45px;
+    font-size: 50px;
     margin-right: 10px;
 }
 /*MOBILE*/
