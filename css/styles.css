@@ -12,7 +12,7 @@
 :root{
     --main-color: #1000a0;
     --main-text-color: #FFF;
-    --border-color: #100001;
+    --border-color: #FFF;
     --bio-bg-color: #0894a4;
     --bio-border-color:#017981;
     --about-bg-color: #015a64;
@@ -175,6 +175,7 @@ background-color: transparent;
     padding-left: 10px;
     border-left: 5px solid var(--main-color);
 }
+
 .skills-box i{
     font-size: 45px;
     margin-right: 10px;
