@@ -12,21 +12,24 @@
 :root{
     --main-color: #1000a0;
     --main-text-color: #FFF;
-    --border-color: #999;
+    --border-color: #100001;
     --bio-bg-color: #0894a4;
     --bio-border-color:#017981;
     --about-bg-color: #015a64;
 }
+
 /*Geral*/
 .highlight{
     color: var(--main-color)
 }
+
 /*containers*/
 #container {
     display: flex;
     flex-direction: row;
     color: var(--main-text-color);
 }
+
 #bio-container {
     flex: 11 20%;
     min-height: 100vh;
@@ -35,19 +38,23 @@
     padding: 30px 12px;
     border-right: 5px solid var(--bio-border-color); 
 }
+
 #about-container{
     flex: 1 1 80%;
     min-height: 100vh;
     background-color: var(--about-bg-color);
     padding: 50px;
 }
+
 /*Bio Container*/
 #bio-container h2{
     margin-bottom: 25px;
 }
+
 #bio-container p{
     margin-bottom: 20px;
 }
+
 #bio-container #welcome-text{
     font-weight: bold;
 }
@@ -58,6 +65,7 @@
     border-radius: 50%;
     margin-bottom: 25px;
 }
+
 #social-container{
     display: flex;
     justify-content: center;
@@ -66,19 +74,23 @@
     margin-bottom: 25px;
     padding-bottom: 25px;
 }
+
 #social-container li a {
     color: var (--main-color);
     font-size: 30px;
 }
+
 #email-container{
     display: flex;
     justify-content: center;
 }
+
 #email-container ion-icon,
 #email-contaiener a {
     flex: 1 1 0;
 
 }
+
 #email-conteiner a{
     color: var(--main-text-color);
     text-decoration: none;
@@ -91,21 +103,24 @@
     margin-right: 5px;
     max-width: 20px;
 }
+
 /*about container*/
 #name{
     font-size: 45px;
     margin-bottom: 15px;
-
 }
+
 #title{
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
 }
+
 .description{
     max-width: 75%;
     margin-bottom: 10px;
 }
+
 #btn-projects{
     font-weight: bold;
     font-size: 16px;
@@ -126,10 +141,16 @@
 #btn-projects span{
     flex: 1 1 0;
 }
+
 #btn-projects ion-icon{
     font-size: 20px;
     max-width: 20px;
 }
+
+#btn-projects:hover{
+background-color: transparent;
+}
+
 #skills-section-title{
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
