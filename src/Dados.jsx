@@ -46,10 +46,10 @@ function Dados() {
         alt="foto" />
 
       <div style={estiloTexto}>
-        <h1 style={estiloTitulo}>Luana Santos Barreto</h1>
+        <h1 style={estiloTitulo}>Luana Santos</h1>
         <p style={estiloSubtitulo}>Desenvolvedora front-end</p>
         <p>+555199650-6622</p>
-        <p>luanasanos.inf@gmail.com</p>
+        <p>luanasantos.inf@gmail.com</p>
         <p>< a href="https://www.linkedin.com/in/luanasantosb/" target="_blank" style={estiloLink}>Linkedin</a></p>
           <p><a href="https://github.com/luanasantosb" target="_blank" style={estiloLink}>GitHub</a></p>
           </div>
