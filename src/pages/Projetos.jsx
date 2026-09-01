@@ -8,9 +8,6 @@ function Projetos() {
         minHeight: '100vh',
         margin: '0',
         padding: '0',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
     };
 
     const estiloCard = {

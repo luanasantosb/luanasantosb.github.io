@@ -1,16 +1,15 @@
 import Menu from './Menu';
-import Dados from'./Dados';
-import { Routes, Route } from 'react-router-dom';
+import Dados from './Dados';
+import { HashRouter, Routes, Route } from 'react-router-dom'; // 👈 CORRIGIDO: Adicionado Routes e Route aqui
 import Home from "./Home";
 import Formacao from "./pages/Formacao";
 import Experiencias from "./pages/Experiencias";
 import Projetos from "./pages/Projetos";
 
 function App() {
-
   return (
-    <>
-     <Dados />
+    <HashRouter> 
+      <Dados />
       <Menu />
       <main>
         <Routes>
@@ -20,9 +19,11 @@ function App() {
           <Route path="/projetos" element={<Projetos />} />
         </Routes>
       </main>
-    </>
+    </HashRouter>
   );
 }
 
 export default App;
+
+
 

@@ -8,7 +8,6 @@ function Menu() {
     padding: '10px', 
     gap: '35px',
     backgroundColor:'#c0ffee',
-    padding:'16px',
   };
 
   const estiloLink = {
