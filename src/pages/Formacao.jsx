@@ -4,7 +4,7 @@ function Formacao() {
         flexDirection: 'column',
         alignItems: 'center',
         gap: '20px',
-        backgroundColor: '#BDDCE1',
+        backgroundColor: '#c0ffee',
         minHeight: '100vh',
     };
 
@@ -21,20 +21,20 @@ function Formacao() {
         <div style={containerEstilo}>
             <div style={cardEstilo}>
                 <strong>Instituto Federal do Rio Grande do Sul (IFRS)</strong>
-                <p>Análise e Desenvolvimento de Sistemas</p>
+                <p>Sistemas para Internet</p>
                 <p>Status: Cursando</p>
             </div>
 
             <div style={cardEstilo}>
                 <strong>SENAI/RS</strong>
                 <p>Técnico em Redes de Computadores</p>
-                <p>status: Concluído</p>
+                <p>Status: Concluído</p>
             </div>
 
             <div style={cardEstilo}>
-                <strong>Escola técnica Alcides Maya</strong>I
+                <strong>Escola Técnica Alcides Maya</strong>I
                 <p>Técnico em Informática</p>
-                <p>status: Concluído</p>
+                <p>Status: Concluído</p>
             </div>
 
         </div>

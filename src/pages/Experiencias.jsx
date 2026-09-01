@@ -4,7 +4,7 @@ function Experiencias() {
         flexDirection: 'column',
         alignItems: 'center',
         gap: '20px',
-        backgroundColor: '#BDDCE1',
+        backgroundColor: '#c0ffee',
         minHeight: '100vh',
     };
 

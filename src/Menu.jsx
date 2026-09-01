@@ -7,7 +7,7 @@ function Menu() {
     alignItems: 'center',
     padding: '10px', 
     gap: '35px',
-    backgroundColor:'#BDDCE1',
+    backgroundColor:'#c0ffee',
     padding:'16px',
   };
 

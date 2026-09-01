@@ -31,13 +31,11 @@ function Home() {
     return (
         <>
             <div style={estiloTexto}>
-                <p>Sou profissional de Tecnologia da Informação com atuação autônoma, dedicada a transformar desafios em soluções práticas por meio da tecnologia. Minha trajetória começou no atendimento ao cliente (SAC), experiência que fortaleceu minha comunicação, empatia e capacidade de resolver problemas, habilidades que hoje aplico no suporte técnico e no desenvolvimento web. </p>
+                <p>Sou profissional de Tecnologia da Informação, com experiência em atendimento ao cliente e suporte técnico. Tenho formação em Montagem e Manutenção de Computadores pelo SENAI/RS, certificação em Suporte de TI pelo Google (Coursera) e atualmente curso Sistemas para Internet no IFRS. </p>
 
-<p>Tenho formação em Montagem e Manutenção de Computadores pelo SENAI/RS, certificação em Suporte em TI pela Google (Coursera) e atualmente curso Sistemas para internet no IFRS.</p>
+<p>Desenvolvo projetos em Front-End com HTML, CSS e JavaScript, com foco em responsividade, usabilidade e boas práticas. Sou apaixonada por tecnologia e estou sempre em busca de novos conhecimentos e desafios para evoluir profissionalmente.</p>
 
-<p>Também desenvolvo projetos em front-end utilizando HTML, CSS e JavaScript, sempre buscando aplicar boas práticas de estruturação, responsividade e usabilidade. Acredito no aprendizado contínuo e estou em constante evolução para ampliar meus conhecimentos e entregar soluções cada vez mais eficientes. Além da tecnologia, sou entusiasta da Língua Espanhola, o que reforça meu interesse por comunicação e aprendizado constante.
-</p>
-            </div>
+      </div>
 
             <div style={estiloSkills}>
                 <img style={estiloImg}
